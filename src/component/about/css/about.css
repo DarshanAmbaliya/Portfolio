@@ -1,0 +1,264 @@
+hr {
+  height: 8px;
+  background-color: #111;
+  border: none;
+  margin: 40px 0px;
+}
+
+.about-banner-section {
+  height: 330px;
+  background-size: cover;
+}
+
+.main-heading {
+  padding-bottom: 30px;
+}
+.main-heading h2 {
+  display: inline-block;
+  border-bottom: 2px solid #6700da;
+  text-transform: capitalize;
+  color: white;
+  padding-bottom: 8px;
+}
+
+.personal-info-section {
+  padding: 0px 70px;
+  margin-top: -70px;
+}
+.personal-info-section .container .row .image {
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.78);
+  border: 2px solid white;
+  border-radius: 50%;
+}
+.personal-info-section .container .row .image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.personal-info-section .container .row .main-box .box-1 {
+  width: 49%;
+}
+.personal-info-section .container .row .main-box .box-1 .content h3 {
+  text-transform: capitalize;
+  font-size: 26px;
+  color: white;
+  padding: 15px 0px;
+}
+.personal-info-section .container .row .main-box .box-1 .content p {
+  font-size: 18px;
+  color: white;
+  padding-bottom: 5px;
+}
+.personal-info-section .container .row .main-box .box-1 .content p span {
+  display: inline;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: white;
+  padding: 0px;
+}
+.personal-info-section .container .row .main-box .box-1 .content .country {
+  display: flex;
+  align-items: center;
+}
+.personal-info-section .container .row .main-box .box-1 .content .country p {
+  text-transform: capitalize;
+  color: #d5d5d5;
+  padding-bottom: 0px;
+}
+.personal-info-section .container .row .main-box .box-1 .content .country a {
+  border-bottom: 3px solid #6700da;
+  color: white;
+  font-weight: 700;
+}
+.personal-info-section .container .row .main-box .box-1 .content span {
+  display: block;
+  color: #d5d5d5;
+  font-weight: 700;
+  padding: 16px 0px;
+  font-size: 18px;
+}
+.personal-info-section .container .row .main-box .box-1 .content .btn-link {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.personal-info-section .container .row .main-box .box-1 .content .btn-link .btn a {
+  display: block;
+  padding: 8px 35px;
+  background-color: #6700da;
+  border-radius: 30px;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 600;
+  border: 2px solid #6700da;
+  transition: all 0.3s;
+}
+.personal-info-section .container .row .main-box .box-1 .content .btn-link .btn a:hover {
+  transform: scale(1.07);
+}
+.personal-info-section .container .row .main-box .box-1 .content .btn-link .btn:nth-child(2) a {
+  background-color: transparent;
+}
+.personal-info-section .container .row .main-box .box-2 {
+  width: 35%;
+}
+.personal-info-section .container .row .main-box .box-2 .content .image {
+  background-color: white;
+  width: 50px;
+  height: 48px;
+}
+.personal-info-section .container .row .main-box .box-2 .content .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.personal-info-section .container .row .main-box .box-2 .content ul li {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: white;
+  padding-bottom: 18px;
+}
+.personal-info-section .container .row .main-box .box-2 .content ul li a {
+  display: block;
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+.personal-info-section .container .row .main-box .box-2 .content ul li a:hover {
+  opacity: 0.6;
+}
+.personal-info-section .container .row .main-box .box-2 .content ul li span {
+  display: block;
+  opacity: 0.6;
+  line-height: 1.5;
+}
+
+.about-section {
+  padding: 0px 70px;
+}
+.about-section .container .row .detail p {
+  padding-bottom: 20px;
+  color: #d5d5d5;
+  line-height: 1.5;
+  font-size: 18px;
+}
+
+.skill-section {
+  padding: 0px 70px;
+}
+.skill-section .container .row .box ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.skill-section .container .row .box ul li {
+  width: 49%;
+  padding-bottom: 25px;
+}
+.skill-section .container .row .box ul li .skill-year {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.skill-section .container .row .box ul li .skill-year p {
+  text-transform: capitalize;
+  padding-bottom: 5px;
+  font-size: 18px;
+}
+.skill-section .container .row .box ul li .skill-year span {
+  display: block;
+  opacity: 0.6;
+}
+.skill-section .container .row .box ul li .progress {
+  height: 12px;
+  border: 2px solid #444;
+  border-radius: 8px;
+  background-color: transparent;
+}
+.skill-section .container .row .box ul li .progress .range {
+  background-color: #6700da;
+  border: 2px solid #222;
+  border-radius: 9px;
+  height: 8px;
+}
+
+.tech-section {
+  padding: 0px 70px;
+}
+.tech-section .container .row .technology {
+  padding-bottom: 30px;
+}
+.tech-section .container .row .technology ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tech-section .container .row .technology ul li {
+  color: white;
+  font-weight: 400;
+  width: 25%;
+  padding-bottom: 10px;
+}
+.tech-section .container .row .technology ul li h3 {
+  text-transform: capitalize;
+  line-height: 1.75;
+  font-size: 18px;
+}
+.tech-section .container .row .technology ul li span {
+  display: block;
+  color: #d5d5d5;
+  text-transform: capitalize;
+  font-size: 17px;
+}
+
+@media (max-width: 991px) {
+  .about-banner-section {
+    height: 222px;
+    margin-top: 90px;
+    background-position: center;
+  }
+  .personal-info-section {
+    padding: 0px 25px;
+  }
+  .personal-info-section .container .row .main-box .box-1 {
+    width: 100%;
+  }
+  .personal-info-section .container .row .main-box .box-2 {
+    width: 100%;
+    padding-top: 30px;
+  }
+  .about-section, .skill-section, .tech-section {
+    padding: 0px 25px;
+  }
+  .about-section .container .row .detail {
+    padding-top: 0px;
+  }
+  .skill-section .container .row .box {
+    padding: 0px;
+  }
+  .tech-section .container .row .technology {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .tech-section .container .row .technology ul li {
+    width: 50%;
+  }
+}
+@media (max-width: 575px) {
+  .personal-info-section {
+    padding: 0px 15px;
+  }
+  .about-section, .skill-section, .tech-section {
+    padding: 0px 15px;
+  }
+  .skill-section .container .row .box ul li {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */

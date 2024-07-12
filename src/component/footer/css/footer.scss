@@ -1,0 +1,138 @@
+footer {
+  position: relative;
+  z-index: 99;
+  padding: 17px 45px;
+  background-color: var(--bg-primary-color);
+  border-top: 2px solid #333;
+
+  .container {
+    .row {
+      .social-media {
+        width: 30%;
+
+        ul {
+          display: flex;
+          justify-content: space-between;
+
+          li {
+            a {
+              text-transform: capitalize;
+              opacity: 1;
+              color: var(--text-white-color);
+              transition: all 0.3s;
+              opacity: 0.55;
+
+              &:hover {
+                opacity: 1;
+              }
+            }
+          }
+        }
+      }
+
+      .copyright {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 38%;
+
+        p {
+          color: white;
+          opacity: 0.55;
+        }
+
+        .language {
+          ul {
+            display: flex;
+            align-items: center;
+
+            li {
+              padding: 5px;
+
+              a {
+                color: var(--text-white-color);
+                transition: all 0.3s;
+                opacity: 0.55;
+
+                &:hover {
+                  opacity: 1;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// footer media query start
+@media (min-width: 1400px) {}
+
+@media (max-width: 1399px) {}
+
+@media (max-width: 1199px) {}
+
+@media (max-width: 991px) {
+
+  // footer start
+  footer {
+    padding: 14px 25px;
+
+    .container {
+      .row {
+        .social-media {
+          width: 100%;
+
+          ul {
+            justify-content: center;
+
+            li {
+              padding: 5px 10px;
+            }
+          }
+        }
+
+        .copyright {
+          width: 100%;
+          text-align: center;
+
+          p {
+            width: 100%;
+            padding: 5px 0px;
+          }
+
+          .language {
+            order: -1;
+            width: 100%;
+
+            ul {
+              justify-content: center;
+
+              li {
+                padding: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // footer end
+}
+
+@media (max-width: 767px) {
+
+  // footer start
+  footer {
+    padding: 15px;
+  }
+
+  // footer end
+}
+
+@media (max-width: 575px) {}
+
+// footer media query end

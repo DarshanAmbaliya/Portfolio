@@ -1,0 +1,237 @@
+.main-heading h3 {
+  font-size: 48px;
+  color: white;
+  text-transform: capitalize;
+  padding-bottom: 12px;
+}
+.main-heading span {
+  display: block;
+  text-transform: capitalize;
+  color: #b0b0b0;
+  font-size: 18px;
+}
+
+.banner-section {
+  padding: 65px 70px;
+  background-color: #252525;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+}
+
+.form-section {
+  padding: 65px 70px;
+}
+.form-section .container .row .main-box .box-1 {
+  width: 32%;
+}
+.form-section .container .row .main-box .box-1 .card {
+  padding-bottom: 30px;
+}
+.form-section .container .row .main-box .box-1 .card .content {
+  display: flex;
+  background-color: #333;
+  padding: 22px;
+  border-radius: 10px;
+  gap: 22px;
+}
+.form-section .container .row .main-box .box-1 .card .icon {
+  height: 38px;
+  width: 38px;
+  color: #c2c2c2;
+  font-size: 30px;
+}
+.form-section .container .row .main-box .box-1 .card .icon i {
+  display: block;
+}
+.form-section .container .row .main-box .box-1 .card .detail h3 {
+  color: white;
+  text-transform: capitalize;
+  font-size: 22px;
+  padding-bottom: 8px;
+}
+.form-section .container .row .main-box .box-1 .card .detail p {
+  color: #d5d5d5;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.form-section .container .row .main-box .box-2 {
+  width: 63%;
+}
+.form-section .container .row .main-box .box-2 .content .main-heading {
+  padding: 10px;
+}
+.form-section .container .row .main-box .box-2 .content form {
+  display: flex;
+  flex-wrap: wrap;
+}
+.form-section .container .row .main-box .box-2 .content form .card {
+  width: 50%;
+}
+.form-section .container .row .main-box .box-2 .content form .card .input-box {
+  padding: 10px;
+}
+.form-section .container .row .main-box .box-2 .content form .card .input-box input {
+  padding: 13px 25px 13px 12px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #555;
+  border-radius: 5px;
+  color: white;
+  outline: none;
+}
+.form-section .container .row .main-box .box-2 .content form .card .input-box input:focus {
+  border-color: #6700da;
+}
+.form-section .container .row .main-box .box-2 .content form .card .message-box {
+  padding: 10px;
+  height: 100%;
+}
+.form-section .container .row .main-box .box-2 .content form .card .message-box textarea {
+  display: block;
+  padding: 13px 25px 13px 12px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  border: 2px solid #555;
+  border-radius: 5px;
+  resize: vertical;
+  height: 100%;
+  color: white;
+  outline: none;
+}
+.form-section .container .row .main-box .box-2 .content form .card .message-box textarea:focus {
+  border-color: #6700da;
+}
+.form-section .container .row .main-box .box-2 .content form .radio-btn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  padding: 15px;
+}
+.form-section .container .row .main-box .box-2 .content form .radio-btn input {
+  width: 16px;
+  height: 16px;
+}
+.form-section .container .row .main-box .box-2 .content form .radio-btn span {
+  display: block;
+  width: 60%;
+  color: white;
+  opacity: 0.8;
+}
+.form-section .container .row .main-box .box-2 .content form .btn {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+}
+.form-section .container .row .main-box .box-2 .content form .btn button {
+  cursor: pointer;
+  padding: 12px 34px;
+  background-color: #6700da;
+  border: 2px solid #6700da;
+  color: white;
+  text-transform: capitalize;
+  font-weight: 700;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: all 0.3s;
+}
+.form-section .container .row .main-box .box-2 .content form .btn button:hover {
+  transform: scale(1.07);
+}
+.form-section .container .row .main-box .box-2 .content form .btn button:disabled {
+  cursor: not-allowed;
+  background-color: #333;
+  border-color: #333;
+  opacity: 0.5;
+  color: #fff;
+}
+.form-section .container .row .main-box .box-2 .content form .btn p {
+  color: #d5d5d5;
+  cursor: pointer;
+  text-transform: capitalize;
+  border-bottom: 1px solid #d5d5d5;
+}
+.form-section .container .row .main-box .box-2 .content form .btn p:hover {
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .form-section {
+    padding: 65px 25px;
+  }
+  .form-section .container .row .main-box .box-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .form-section .container .row .main-box .box-1 .card {
+    width: 49%;
+  }
+  .form-section .container .row .main-box .box-2 {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .form-section .container .row .main-box .box-1 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .form-section .container .row .main-box .box-1 .card {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+}
+@media (max-width: 575px) {
+  .form-section {
+    padding: 30px 15px;
+  }
+  .form-section .container .row .main-box .box-1 .card {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .form-section .container .row .main-box .box-2 .content .main-heading {
+    padding: 10px 0px 20px;
+  }
+  .form-section .container .row .main-box .box-2 .content form .card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+  }
+  .form-section .container .row .main-box .box-2 .content form .card .input-box {
+    width: 100%;
+    padding: 0px;
+  }
+  .form-section .container .row .main-box .box-2 .content form .card .message-box {
+    width: 100%;
+    padding: 20px 0px 0px;
+  }
+  .form-section .container .row .main-box .box-2 .content form .card .message-box textarea {
+    height: 186px;
+  }
+  .form-section .container .row .main-box .box-2 .content form .radio-btn {
+    padding: 20px 0px;
+  }
+  .form-section .container .row .main-box .box-2 .content form .radio-btn span {
+    width: 90%;
+  }
+}
+@media (max-width: 400px) {
+  .form-section .container .row .main-box .box-2 .content form .btn {
+    justify-content: end;
+  }
+  .form-section .container .row .main-box .box-2 .content form .btn button {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .form-section .container .row .main-box .box-2 .content form p {
+    padding-top: 15px;
+    text-align: end;
+  }
+}/*# sourceMappingURL=contact.css.map */
